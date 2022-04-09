@@ -79,5 +79,18 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 1rem;
+    min-width: 5rem;
 }
+
+.ratings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: hsl(213, 20%, 22%);
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+}
+
 
