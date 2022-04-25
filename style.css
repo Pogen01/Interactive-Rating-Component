@@ -34,6 +34,11 @@ body{
     gap: 1rem;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .card{
     display: flex;
     flex-direction: column;
@@ -90,13 +95,49 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 700;
     border-radius: 50%;
     color: var(--medium-grey);
     background: hsl(213, 20%, 22%);
     min-width: 2.5rem;
     min-height: 2.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Ratings Hover State and Active State*/
+.rating-numbers .ratings:hover{
+    background-color: var(--medium-grey);
+    color: var(--white);
+}
+
+.rating-numbers .ratings.active{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+/* Styling Thank you state */
+.thank-you-state .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.thank-you-state .user-selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.18rem;
+    background-color: hsl(213, 20%, 22%);
+    padding: 0.4rem 0.8rem;
+    color: var(--orange);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: .03rem;
+    line-height: 1;
+    border-radius: 20px;
 }
 
 /* Button Styling */
@@ -112,6 +153,12 @@ body{
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
+    color: var(--white);
+    transition: all 0.2s ease-in-out;
 }
 
+.btn-submit:hover{
+    background-color: var(--white);
+    color: var(--orange);
+}
 
