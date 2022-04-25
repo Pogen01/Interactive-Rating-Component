@@ -105,6 +105,7 @@ a{
     transition: all 0.2s ease-in-out;
 }
 
+
 /* Ratings Hover State and Active State*/
 .rating-numbers .ratings:hover{
     background-color: var(--medium-grey);
