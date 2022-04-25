@@ -156,6 +156,7 @@ a{
     text-transform: uppercase;
     color: var(--white);
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .btn-submit:hover{
