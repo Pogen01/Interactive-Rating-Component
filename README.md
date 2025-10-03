@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: https://ipogeni.github.io/Interactive-Rating-Component/
+- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-using-css-flexbox-and-javascript-HJqaym_B9)
+- Live Site URL: https://pogen01.github.io/Interactive-Rating-Component/
 
 ## My process
 As always, I started the project with the boiler code. Copy pasted the contents in. Started working on the structure of the whole website. Started writing down the HTML first for the desktop view, finished all the markups and then moved to styling from top to bottom. While doing styling, i prefer an external stylesheet and putting all of my styles there. Started by giving a global clear then began to write my own styling codes! Created variables for all the colors to change them anytime in the future if needed to be! Styled the utility classes like button or links at the end of the stylesheet. Finishing the first page, made it hidden and worked on the second page. Finally for the functionality I added javaScript codes to the website.
@@ -81,6 +81,5 @@ I am still relatively less knowlegdable when it comes down to DOM, so in the fut
 
 ## Author
 
-- Website - [Protaya Roy](https://ipogeni.github.io/)
-- Frontend Mentor - [Pogen](https://www.frontendmentor.io/profile/IPogenI)
-- Github - [Pogen](https://github.com/IPogenI)
+- Frontend Mentor - [Pogen](https://www.frontendmentor.io/profile/Pogen01)
+- Github - [Pogen](https://github.com/Pogen01)
